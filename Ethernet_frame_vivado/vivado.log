@@ -1,0 +1,40 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 24-jul-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Sep  4 17:59:16 2026
+# Process ID         : 33132
+# Current directory  : C:/Users/Danic/OneDrive/Documents/FPGA Projects/Ethernet frame parser/Ethernet_frame_vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent17220 C:\Users\Danic\OneDrive\Documents\FPGA Projects\Ethernet frame parser\Ethernet_frame_vivado\Ethernet_Frame_parser.xpr
+# Log file           : C:/Users/Danic/OneDrive/Documents/FPGA Projects/Ethernet frame parser/Ethernet_frame_vivado/vivado.log
+# Journal file       : C:/Users/Danic/OneDrive/Documents/FPGA Projects/Ethernet frame parser/Ethernet_frame_vivado\vivado.jou
+# Running On         : Dani
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 7940HS w/ Radeon 780M Graphics     
+# CPU Frequency      : 3992 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16347 MB
+# Swap memory        : 10737 MB
+# Total Virtual      : 27085 MB
+# Available Virtual  : 7011 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Danic/OneDrive/Documents/FPGA Projects/Ethernet frame parser/Ethernet_frame_vivado/Ethernet_Frame_parser.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Danic/OneDrive/Documents/FPGA Projects/Ethernet frame parser/Ethernet_frame_vivado'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Danic/OneDrive/Documents/Ethernet frame parser/Ethernet_Frame_parser' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Danic/OneDrive/Documents/FPGA Projects/Ethernet frame parser/Ethernet_frame_vivado/Ethernet_Frame_parser.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1714.254 ; gain = 254.062
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  4 20:19:58 2026...
